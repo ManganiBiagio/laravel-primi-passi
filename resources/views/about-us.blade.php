@@ -9,13 +9,9 @@
 </head>
 <body>
     <div class="container">
-        <h1>Benvenuto {{$name}} {{$surname}}</h1>
-        <ul>
-            @foreach ($links as  $link)
-            <li><a href="/{{$link}}">{{ $link}}</a></li>
-                
-            @endforeach
-        </ul>
+        <h1>About us</h1>
+
+        
     
 
     </div>
